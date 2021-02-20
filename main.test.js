@@ -1,7 +1,10 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-
+//There is a weird setting in JSHint that
+//gets upset when I use const, so that is 
+//why I am using let instead for the global 
+//variables.
 let sum = 0;
 let prod = 0;
 let greeting = "Hello";
