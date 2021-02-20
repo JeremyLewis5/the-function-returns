@@ -2,6 +2,44 @@
  * YOUR CODE HERE *
  ******************/
 
+let sum = 0;
+let prod = 0;
+let greeting = "Hello";
+
+function greet( person) {
+ 
+ greeting = greeting + ' ' + person;
+  
+}
+
+function sumOfTwo(x, y) {
+  sum = x + y;
+
+}
+
+function multiply(x, y, z) {
+ prod = x * y * z;
+}
+
+function sayHi (name) {
+  return "Hello " + name + '!';
+
+}
+
+function returnWhatISay(sentence) {
+  return sentence;
+}
+
+function divide(a, b) {
+  return a / b;
+}
+
+function remainder(ten, three) {
+  return ten / three;
+}//Didn't get this one because I forgot 
+//about the mod operation %
+
+
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
